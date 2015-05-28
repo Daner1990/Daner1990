@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  chrome developer
+title: Chrome Developer 开发工具学习
+excerpt:简单的了解一些面板的信息
 ---
 
 Tips:
