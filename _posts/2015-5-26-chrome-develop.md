@@ -43,6 +43,22 @@ snippets:片段
 
 console.log() //可接多个参数
 
+    console.log("%s has %d points", "Sam", 100);
+    console.log("%cThis will be formatted with large, blue text", "color: blue; font-size: x-large");
+
+    %s
+    Formats the value as a string
+    %i or %d
+    Formats the value as an integer.
+    %f
+    Formats the value as a floating point value.
+    %o
+    Formats the value as an expandable DOM element. As seen in the Elements panel.
+    %O
+    Formats the value as an expandable JavaScript object.
+    %c
+    Applies CSS style rules to the output string as specified by the second parameter. 
+
 console.error()//输出是红色的
 
 console.warn()//输出背景色是黄色的
@@ -65,4 +81,31 @@ console.table()
     console.table([{a:1, b:2, c:3}, {a:"foo", b:false, c:undefined}]);
     console.table([[1,2,3], [2,3,4]]);
 
+console.time()/console.timeEnd()
 
+    计算执行时间ms
+
+debugger；
+
+    在文件中设置断点
+
+console.count()
+
+    对相同的打印会进行计数
+
+
+选择元素
+
+    $() document.querySelector() 选择第一个元素
+    $$() document.querySelectorAll() 选择所有元素
+    $x() return array with specified Xpath
+
+监听元素
+
+    monitorEvents(document.body,'click')
+    unmonitorEvents(document.body)
+
+cpu profiler 
+    
+    profile()
+    profileEnd()
