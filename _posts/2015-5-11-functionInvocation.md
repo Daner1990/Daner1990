@@ -1,6 +1,7 @@
 ---
 layout: post
 title: invocation 调用指令
+my_excerpt: javascript中函数调用方法，具体内部是怎么实现调用的呢，对call,apply,bind的理解
 ---
 
 <h1>Function Invocation</h1>

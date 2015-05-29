@@ -1,6 +1,7 @@
 ---
 layout: post
 title: js modules
+my_excerpt: javascript 模块化编程,简单的了解两种模块化模式CommonJS和AMD
 ---
 
 <h2>1. 基本javascript模块编程</h2>
@@ -19,6 +20,7 @@ title: js modules
 所以需要有一套标准的模块规范
 
 现在有两个模块规范：commonjs 和 amd 模块规范。
+
 
 <h2>3.commonJS</h2>
 
@@ -46,6 +48,7 @@ nodejs的模块系统是参照commonjs规范实现的
 但是对浏览器而言这是一个大问题。因为模块都放在服务器上
 
 等待时间取决网络快慢。时间过长会导致浏览器处于假死状态。所以不能使用同步加载
+
 
 <h2>4.AMD</h2>
 
